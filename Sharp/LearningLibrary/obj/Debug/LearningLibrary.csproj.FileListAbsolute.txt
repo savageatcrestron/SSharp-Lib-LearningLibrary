@@ -1,0 +1,7 @@
+C:\Users\dsavage\Documents\Visual Studio 2008\Projects\LearningLibrary\LearningLibrary\bin\Debug\LearningLibrary.dll
+C:\Users\dsavage\Documents\Visual Studio 2008\Projects\LearningLibrary\LearningLibrary\bin\Debug\LearningLibrary.pdb
+C:\Users\dsavage\Documents\Visual Studio 2008\Projects\LearningLibrary\LearningLibrary\bin\Debug\SimplSharpCustomAttributesInterface.dll
+C:\Users\dsavage\Documents\Visual Studio 2008\Projects\LearningLibrary\LearningLibrary\bin\Debug\SimplSharpHelperInterface.dll
+C:\Users\dsavage\Documents\Visual Studio 2008\Projects\LearningLibrary\LearningLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dsavage\Documents\Visual Studio 2008\Projects\LearningLibrary\LearningLibrary\obj\Debug\LearningLibrary.dll
+C:\Users\dsavage\Documents\Visual Studio 2008\Projects\LearningLibrary\LearningLibrary\obj\Debug\LearningLibrary.pdb

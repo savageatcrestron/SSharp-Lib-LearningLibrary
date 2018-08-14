@@ -1,0 +1,60 @@
+namespace LearningLibrary;
+        // class declarations
+         class Class1;
+         class DelegateDavesClass;
+         class EventCallingClass;
+     class Class1 
+    {
+        // class delegates
+
+        // class events
+
+        // class functions
+        INTEGER_FUNCTION GetId ();
+        INTEGER_FUNCTION testVal ();
+        STRING_FUNCTION ToString ();
+        SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
+
+        // class variables
+        INTEGER __class_id__;
+
+        // class properties
+    };
+
+     class DelegateDavesClass 
+    {
+        // class delegates
+        delegate INTEGER_FUNCTION MyDelegatesNameIsDave ( );
+
+        // class events
+
+        // class functions
+        INTEGER_FUNCTION GetDavesPropertyValueFromSPlus ();
+        STRING_FUNCTION ToString ();
+        SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
+
+        // class variables
+        INTEGER __class_id__;
+
+        // class properties
+        DelegateProperty MyDelegatesNameIsDave DavesProperty;
+    };
+
+     class EventCallingClass 
+    {
+        // class delegates
+
+        // class events
+        EventHandler myEventToCall ( EventCallingClass sender, EventArgs e );
+
+        // class functions
+        FUNCTION TriggerMyEvent ();
+        STRING_FUNCTION ToString ();
+        SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
+
+        // class variables
+        INTEGER __class_id__;
+
+        // class properties
+    };
+
