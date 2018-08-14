@@ -1,0 +1,50 @@
+
+#CATEGORY "32" // Miscellaneous
+#SYMBOL_NAME "S# LibraryImport"
+ 
+#user_simplsharp_library "LearningLibrary"
+
+digital_input Trigger;
+ 
+digital_output DelegateWorked;
+analog_output From_GetID, From_testVal, DavesValue;
+string_output MyEventHappened;
+      
+Class1 myClass;
+DelegateDavesClass davesClass;
+EventCallingClass myEventClass;
+ 
+callback integer_function CallDaveBack()
+{
+	pulse(300, DelegateWorked);
+	return(40507);	
+}
+
+eventhandler myEventHandler(EventCallingClass sender, EventArgs args)
+{
+	if(sender = myEventClass)
+	{
+		MyEventHappened = "yahoooo!";
+	}
+}
+
+push Trigger
+{
+ 	// option 1
+	integer valFromCSharp;
+	valFromCSharp = myClass.GetId();
+	From_GetID = valFromCSharp;
+
+	// option 2
+	From_testVal = myClass.testVal();
+
+	DavesValue = davesClass.GetDavesPropertyValueFromSPlus();
+
+	myEventClass.TriggerMyEvent();
+}
+
+function Main()
+{
+	registerdelegate(davesClass, DavesProperty, CallDaveBack);
+	registerevent(myEventClass, myEventToCall, myEventHandler);
+}

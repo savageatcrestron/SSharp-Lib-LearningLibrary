@@ -1,0 +1,43 @@
+[BEGIN]
+  ObjTp=FSgntr
+  Sgntr=ArchiveManifest
+  RelVrs=4.08.15
+  IsProgram=1
+  TopLevelProgram=SIMPL.smw
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=SIMPL.smw
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=SIMPL.sig
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=SIMPL.lpz
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=SIMPL.smft
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=SIMPL.lpz.hash
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=S# LibraryImport.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=LearningLibrary.clz
+  Scope=1
+  Module=S# LibraryImport.ush
+[END]
